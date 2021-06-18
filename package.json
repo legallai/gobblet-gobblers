@@ -13,7 +13,8 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "vuex": "^4.0.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.27.0",
