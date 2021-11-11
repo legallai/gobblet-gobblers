@@ -63,6 +63,7 @@
 import { defineComponent } from 'vue';
 import { store } from '../store';
 import Gobbler from './Gobbler.vue';
+
 export default defineComponent({
     name: 'BoardGame',
     components: {

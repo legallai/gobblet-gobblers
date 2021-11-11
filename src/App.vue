@@ -1,13 +1,14 @@
 <template>
-    <p>App works!</p>
+    <BoardGame />
 </template>
 
 <script lang="ts">
     import { defineComponent } from 'vue';
+    import BoardGame from './components/BoardGame.vue';
 
     export default defineComponent({
         name: 'App',
-        components: {},
+        components: {BoardGame},
     });
 </script>
 
