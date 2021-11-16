@@ -22,7 +22,7 @@ interface Coordinates {
     y: number;
 }
 
-class Gobbler {
+export class Gobbler {
     color: string;
     size: number;
 
