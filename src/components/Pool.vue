@@ -56,6 +56,7 @@ export default defineComponent({
 
 .player-pool {
     display: flex;
+    flex-direction: column;
 }
 
 /* TODO refactor this to be common */
@@ -69,6 +70,10 @@ export default defineComponent({
 
 /* TODO refactor this to be common */
 .border {
-    border: solid 1px grey;
+    margin: 10px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe,
+                inset -20px -20px 60px #ffffff;
 }
 </style>

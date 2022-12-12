@@ -1,8 +1,10 @@
 <template>
     {{ hasWon }}
-    <Board :board="board" />
-    <Pool :pool="playerOnePool" />
-    <Pool :pool="playerTwoPool" />
+    <div class="wrapper">
+        <Pool :pool="playerOnePool" />
+        <Board :board="board" />
+        <Pool :pool="playerTwoPool" />
+    </div>
 </template>
 
 <script lang="ts">
@@ -37,4 +39,9 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
 </style>

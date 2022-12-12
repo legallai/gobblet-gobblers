@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <div class="board border">
+        <div class="board">
             <div
                 v-for="(gobbler, index) in board"
                 class="border"
@@ -93,7 +93,12 @@ export default defineComponent({
 
 /* TODO refactor this to be common */
 .border {
-    border: solid 1px grey;
+    /* border: solid 1px grey; */
+    margin: 10px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe,
+                inset -20px -20px 60px #ffffff;
 }
 
 /* TODO refactor this to be common */
